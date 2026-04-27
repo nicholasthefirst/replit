@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bot Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Bot Dashboard</h1>
+
+<button onclick="createProject()">New Bot</button>
+
+<select id="projects" onchange="loadProject()"></select>
+
+<br><br>
+
+<textarea id="editor"></textarea>
+
+<br>
+
+<button onclick="save()">Save</button>
+<button onclick="run()">Run</button>
+<button onclick="stop()">Stop</button>
+
+<script src="app.js"></script>
+</body>
+</html>
